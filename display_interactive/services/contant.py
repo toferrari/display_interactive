@@ -1,0 +1,1 @@
+API_EXTERNE_URL=" https://mockapi.example.com/v1/customers"
