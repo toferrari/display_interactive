@@ -32,3 +32,4 @@ async def export_data(
         return JSONResponse(content={"exported_customers": exported_customers})
     except:
         raise Exception("An error occurred while exporting data")
+
