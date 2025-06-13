@@ -5,7 +5,7 @@ from display_interactive.services.contant import API_EXTERNE_URL
 from display_interactive.models.model import Customers, Purchases
 
 
-async def export_database(db: Session):
+def export_database(db: Session):
     """
     Export data from the database to a CSV file.
     """
